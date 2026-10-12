@@ -3433,7 +3433,7 @@ textarea:not(.note-field):focus {
   padding: 0.85rem;
 }
 
-.btn-secondary-link {
+.btn.secondary-link {
   display: inline-block;
   padding: 0.6rem 1.25rem;
   background: rgba(157, 154, 181, 0.15);
@@ -3450,14 +3450,14 @@ textarea:not(.note-field):focus {
   transition: background 0.1s, color 0.1s, border-color 0.1s, transform 0.08s;
   box-shadow: 4px 4px 0px #0a0a1a;
 }
-.btn-secondary-link:hover {
+.btn.secondary-link:hover {
   background: rgba(157, 154, 181, 0.25);
   color: #e8e6f0;
   border-color: #9d9ab5;
   box-shadow: 5px 5px 0 #0a0a1a;
   transform: translate(-1px, -1px);
 }
-.btn-secondary-link:active {
+.btn.secondary-link:active {
   box-shadow: 2px 2px 0 #0a0a1a;
   transform: translate(2px, 2px);
 }
@@ -3598,13 +3598,13 @@ textarea:not(.note-field):focus {
   padding: 0.5rem 1rem;
   font-size: 11px;
 }
-.btn.btn-secondary {
+.btn.btn.secondary {
   background: #9d9ab5;
   color: #0f3460;
   margin-left: 0.5rem;
 }
 
-.btn-secondary {
+.btn.secondary {
   display: inline-block;
   padding: 0.75rem 1.5rem;
   background: #9d9ab5;
@@ -3622,11 +3622,11 @@ textarea:not(.note-field):focus {
   margin-top: 1rem;
   margin-right: 0.5rem;
 }
-.btn-secondary:hover {
+.btn.secondary:hover {
   box-shadow: 5px 5px 0 #0a0a1a;
   transform: translate(-1px, -1px);
 }
-.btn-secondary:active {
+.btn.secondary:active {
   box-shadow: 2px 2px 0 #0a0a1a;
   transform: translate(2px, 2px);
 }
